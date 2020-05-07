@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-content: center;
     margin: 0em 4em;
+    height: auto;
 }
 
 h1 {
@@ -40,7 +41,7 @@ img {
 .basics {
     font-size: 4vw;
     width: 33%;
-    height: 35vh;
+    height: auto;
 }
 
 .myname {
@@ -62,7 +63,7 @@ img {
 .story {
     width: 33%;
     font-size: 4vw;
-    height: 35vh;
+    height: auto;
 }
 
 .bio {
@@ -72,6 +73,7 @@ img {
 }
 
 .avatar {
-    height: 20vh;
+    height: auto;
+    width: 30%;
 }
 
