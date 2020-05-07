@@ -26,9 +26,6 @@ fetch( "https://api.github.com/users/akus062381" )
         website.className = "website"
         website.innerText = ("Website: " + response.blog)
         basics.appendChild(website)
-        return response;
-    })
-    .then(function (response) {
         const story = document.createElement("div")
         story.className = "story"
         story.innerText = ("The Story")
@@ -37,14 +34,14 @@ fetch( "https://api.github.com/users/akus062381" )
         bio.className = "bio"
         bio.innerText = response.bio
         story.appendChild(bio)
-        return response;
+        createImageSection(response)
     })
-    .then(function (response) {
+
+    function createImageSection (response) {
         const avatar = new Image 
         avatar.className = "avatar"
         avatar.src = response.avatar_url
         dataSection.appendChild(avatar)
-    })
-
+    }
 
    
