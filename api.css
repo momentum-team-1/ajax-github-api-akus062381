@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-content: center;
+    margin: 0em 4em;
+}
+
+h1 {
+    font-size: 8vw;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    outline: .25em solid gray;
+    padding: 1.5vh 11vw;
+    margin-block-end: .3em;
+}
+
+img {
+    border-radius: 50% 50%;
+    padding: 5em 0em;
+}
+
+.cardname {
+    display: flex;
+    width: 80%;
+    margin-block-start: 0em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    outline: .25em solid white;
+    padding: 4vh 1vw;
+}
+
+.basics {
+    font-size: 4vw;
+    width: 33%;
+}
+
+.myname {
+    font-size: 2.5vw;
+}
+
+.linkname {
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+.company {
+    font-size: 1.5vw;
+}
+
+.website {
+    font-size: 1.5vw;
+}
+
+.story {
+    width: 33%;
+    font-size: 4vw;
+}
+
+.bio {
+    font-size: 1.5vw;
+    height: 10vh;
+    padding: 5em 0em;
+}
+
