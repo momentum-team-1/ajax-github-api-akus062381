@@ -22,7 +22,8 @@ h1 {
 
 img {
     border-radius: 50% 50%;
-    padding: 5em 0em;
+    padding: 2em 0em;
+    width: 25%;
 }
 
 .cardname {
@@ -32,12 +33,14 @@ img {
     flex-wrap: wrap;
     justify-content: space-around;
     outline: .25em solid white;
-    padding: 4vh 1vw;
+    padding: 2vh 1vw;
+    height: auto;
 }
 
 .basics {
     font-size: 4vw;
     width: 33%;
+    height: 35vh;
 }
 
 .myname {
@@ -46,7 +49,6 @@ img {
 
 .linkname {
     font-size: 1.5vw;
-    width: 100%;
 }
 
 .company {
@@ -60,11 +62,16 @@ img {
 .story {
     width: 33%;
     font-size: 4vw;
+    height: 35vh;
 }
 
 .bio {
     font-size: 1.5vw;
     height: 10vh;
     padding: 5em 0em;
+}
+
+.avatar {
+    height: 20vh;
 }
 

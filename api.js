@@ -40,7 +40,7 @@ fetch( "https://api.github.com/users/akus062381" )
         return response;
     })
     .then(function (response) {
-        const avatar = new Image (100, 120)
+        const avatar = new Image 
         avatar.className = "avatar"
         avatar.src = response.avatar_url
         dataSection.appendChild(avatar)
